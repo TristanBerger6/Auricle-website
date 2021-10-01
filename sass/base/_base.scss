@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;// elemnt inherit its box-sizing from its parent
+}
+
+
+body {
+    box-sizing: border-box; // padding + border included in width
+    font-size: 16px;  
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color : $text-color;
+}
+
+img{
+    max-width : 100%;
+    height : auto;
+}

@@ -1,0 +1,10 @@
+.screenshots{
+
+    &__grid{
+        @include grid_eq(4,2,0px);
+
+        @include medium{
+            @include grid_eq(2,4,0px);
+        }
+    }
+}

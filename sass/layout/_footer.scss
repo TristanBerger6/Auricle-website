@@ -1,0 +1,49 @@
+.footer{
+    margin-top : 100px;
+    &__flex{
+        @include grid_eq(4,1,20px);
+
+        @include large{
+            @include grid_eq(2,2,20px);
+        }
+        @include small{
+            @include grid_eq(1,4,20px);
+        }
+    }
+    &__text{
+        &__img{
+            width :70%;
+            margin-bottom: 30px;
+        }
+    }
+    &__twitter{
+        h3{
+            margin-bottom: 20px;
+        }
+    }
+    &__social{
+        p{
+            line-height: 70px;
+        }
+    
+    }
+    &__blog{
+        &__flex{
+            @include flex(flex-start,center,row,nowrap);
+            margin-top: 15px;
+
+            &__img{
+                width :90px;
+                margin-right: 10px;
+            }
+        }
+
+    }
+
+    i{
+        font-size: 1.2rem;
+        margin-right : 10px;
+    }
+
+
+}

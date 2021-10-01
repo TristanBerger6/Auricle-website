@@ -1,0 +1,23 @@
+.team{
+
+    margin-top :50px;
+    margin-bottom :150px;
+    &__grid{
+        @include grid_eq(4,1,35px);
+        @include medium{
+            @include grid_eq(2,2,35px);
+        }
+    }
+    &__item{
+        text-align: center;
+        p{
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        strong{
+            font-size: 1.1rem;
+            color: $primary-color;
+
+        }
+    }
+}

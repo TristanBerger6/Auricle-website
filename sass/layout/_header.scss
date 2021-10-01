@@ -1,0 +1,41 @@
+header{
+    
+    height : auto;
+    
+    .navbar{
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        @include flex(space-between,center);
+
+        &__logo{
+            width: 250px;
+        }
+        &__list{
+            @include flex(stretch, center, row, wrap);
+            margin-top: 10px;
+            li{
+                padding-left : 30px;
+
+                @include large{
+                    padding-left: 15px ;
+                    padding-top : 10px;
+                    font-size : 14px;
+                }
+            }
+        }
+        &__link{
+            &--active{
+                color : $primary-color;
+            }
+            &:hover{
+                color:$secondary-color;
+            }
+        }
+
+        .btn{
+            @include btn(white,$primary-color,white,$secondary-color);
+        }
+      
+    }
+}
