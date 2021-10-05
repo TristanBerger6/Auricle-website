@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 .bg_gradient {
-  background: url("../img/bg_gradient.png") no-repeat;
+  background: url("./public/img/bg_gradient.png") no-repeat;
   background-size: cover;
   min-height: 500px;
   position: relative;
@@ -13,12 +13,12 @@
   position: absolute;
 }
 .bg_gradient::before {
-  background: url("../img/top_layer.png") no-repeat;
+  background: url("./public/img/top_layer.png") no-repeat;
   top: 0;
   background-size: 100% 100%;
 }
 .bg_gradient::after {
-  background: url("../img/bottom_layer.png") no-repeat;
+  background: url("./public/img/bottom_layer.png") no-repeat;
   bottom: 0;
   background-size: 100% 100%;
 }
@@ -59,7 +59,7 @@
   display: inline-block;
   width: 100%;
   height: 290px;
-  background: url("../img/slide1.png") no-repeat;
+  background: url("./public/img/slide1.png") no-repeat;
   background-position: bottom;
   background-size: cover;
 }
