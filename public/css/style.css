@@ -264,7 +264,7 @@ form .btn:hover {
 
 .hero {
   min-height: 450px;
-  background: url("../img/slide1.png") no-repeat;
+  background: url("./public/img/slide1.png") no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
