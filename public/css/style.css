@@ -171,6 +171,7 @@ header .navbar .btn:hover {
 
 .footer {
   margin-top: 100px;
+  padding-bottom: 100px;
 }
 .footer__flex {
   display: grid;
